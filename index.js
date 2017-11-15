@@ -19,7 +19,7 @@ function iLoveTheBeatles(number){
   do{
     array[i] = "I love the Beatles!"
     i++
-    number++
+    ++number
   }while(number < 15)
   return "I love the Beatles!"
 }
