@@ -15,11 +15,9 @@ var i = 0
 }
 function iLoveTheBeatles(number){
   var array = []
-  var i = 0
   do{
-    array[i] = "I love the Beatles!"
-    i++
-    ++number
+    array[number] = "I love the Beatles!"
+    number++
   }while(number < 15)
   return "I love the Beatles!"
 }
