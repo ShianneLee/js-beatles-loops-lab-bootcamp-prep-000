@@ -13,3 +13,12 @@ var i = 0
   }
   return array
 }
+function iLoveTheBeatles(number){
+  var array = []
+  var i = 0
+  do{
+    array[i] = "I love the Beatles!"
+    number++
+  }while(number < 15)
+  return "I love the Beatles!"
+}
